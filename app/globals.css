@@ -1,5 +1,30 @@
-
 @import "tailwindcss";
+
+@utility bg-hero {
+  background-image: url("/hero.jpg");
+}
+
+@utility btn-gradient {
+  @apply bg-linear-to-r from-fuchsia-500 via-violet-500 to-emerald-300;
+}
+
+@utility btn-effect {
+  @apply shadow-lg shadow-fuchsia-500/25 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-fuchsia-500/40;
+}
+
+@utility text-gradient {
+  background-image: linear-gradient(
+    to right,
+    #22d3ee,
+    #d946ef,
+    #6ee7b7
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 8px rgb(34 211 238 / 25%));
+}
 
 :root {
   color-scheme: dark;

@@ -13,7 +13,7 @@ export default function GuestNavigation() {
 
             <Link
                 href="/auth/create-account"
-                className="rounded-lg bg-linear -to-r from-primary to-accent px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-primary/40"
+                className="rounded-lg bg-linear -to-r from-primary to-accent px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition-all duration-300 hover:-translate-y-0.5 hover:btn-effect hover:btn-gradient"
             >
                 Registrarse
             </Link>

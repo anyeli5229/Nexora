@@ -1,13 +1,25 @@
+
+import LoginForm from "@/src/features/auth/components/LoginForm";
+import Heading from "@/src/shared/components/typography/Heading";
+import { generatePageTitle } from "@/src/shared/utilities/metadata";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Iniciar Sesión"
+  title: generatePageTitle("Iniciar Sesión"),
 }
 
 export default function LoginPage() {
   return (
     <>
-      <h1>Iniciar Sesión</h1>
+      <div className="mb-8 text-center">
+        <Heading className="text-gradient">Bienvenido de nuevo</Heading>
+
+        <p className="mt-3 text-sm text-muted">
+          Inicia sesión y continúa descubriendo experiencias.
+        </p>
+      </div>
+
+      <LoginForm />
     </>
   )
 }

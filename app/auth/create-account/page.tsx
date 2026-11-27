@@ -1,7 +1,8 @@
+import { generatePageTitle } from "@/src/shared/utilities/metadata";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Crear Cuenta"
+  title: generatePageTitle("Crear Cuenta")
 }
 
 export default function RegisterPage() {
