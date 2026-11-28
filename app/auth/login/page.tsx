@@ -12,7 +12,7 @@ export default function LoginPage() {
   return (
     <>
       <div className="mb-8 text-center">
-        <Heading className="text-gradient">Bienvenido de nuevo</Heading>
+        <Heading>Bienvenido de nuevo</Heading>
 
         <p className="mt-3 text-sm text-muted">
           Inicia sesión y continúa descubriendo experiencias.

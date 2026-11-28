@@ -15,7 +15,8 @@ export default function Hero() {
 
         <h1 className="text-5xl font-black italic tracking-tighter text-white sm:text-6xl lg:text-7xl">
           Encuentra tu
-          <span className="mt-1 block text-gradient">
+          <span className="mt-1 block bg-linear-to-r from-emerald-300 via-cyan-400 to-fuchsia-500
+         bg-clip-text text-transparent">
             espacio.
           </span>
         </h1>
